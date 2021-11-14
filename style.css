@@ -1,0 +1,97 @@
+:root {
+    --maroon: 91091E;
+    --orange: DA723C;
+    --gold: C39E5C;
+    --beige: FDF1D6;
+    --black: #00000;
+}
+
+/* home section */
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: maroon;
+    color: beige;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+#logo {
+    align-self: center;
+    margin-left: 45px;
+}
+
+
+#menu {
+    position: fixed;
+    right: 45px;
+    align-self: center;
+    background-color: black;
+    opacity: 50%;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+}
+
+#homepage {
+    background-color: beige;
+    width: 100%;
+    height: 680px;
+}
+
+
+#greeting{
+    margin-left: 75px;
+    margin-top: 200px;
+    font-size: xx-large;
+}
+
+
+#scroll-down {
+    position: absolute;
+    bottom: 75px;
+    right: 50%;
+
+}
+
+
+/* about section */
+#about{
+    width: 100%;
+    height: 680px;
+    background-color: maroon;
+}
+
+
+/* work section */
+
+#work{
+    width: 100%;
+    height: 680px;
+    background-color: gold;
+}
+
+
+#work-portfolio{
+    display:flex;
+    flex-wrap wrap;
+}
+
+#work-heading{
+width: 100px;
+height: 300px;
+
+}
+.work-cards{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+/* contact section */
+#contact {
+    width: 100%;
+    height: 680px;
+    background-color: maroon;
+}
