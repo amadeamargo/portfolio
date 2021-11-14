@@ -75,7 +75,7 @@ nav {
 
 #work-portfolio{
     display:flex;
-    flex-wrap wrap;
+    flex-wrap: wrap;
 }
 
 #work-heading{
