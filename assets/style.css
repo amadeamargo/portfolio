@@ -97,7 +97,7 @@ nav {
 }
 
 #i-am {
-    font-size: 16em;
+    font-size:13em;
     color: white;
     opacity: 15%;
     font-family: 'Abril Fatface', cursive;
@@ -179,17 +179,30 @@ nav {
     flex-wrap: wrap;
 }
 
-#work-heading{
-font-size: 16em;
+#work-header{
+font-size: 13em;
 color: white;
-opacity: 15%;
+opacity: 8%;
 font-family: 'Abril Fatface', cursive;
-margin-left: 50px;
+text-align: center;
+}
+
+#work-top-header-img{
+    width: 1000px;
+    position: absolute;
+    top: 1200px;
+    left: 180px;
 
 }
 
 #work-subheading{
     color:white;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 100;
+    margin-top: 40px;
+    
 }
 
 .work-cards{
