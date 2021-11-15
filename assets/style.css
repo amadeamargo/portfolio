@@ -96,14 +96,25 @@ nav {
     background-color: black;
 }
 
-#i-am {
+.styled-words {
     font-size:13em;
     color: white;
-    opacity: 15%;
+    opacity: 8%;
     font-family: 'Abril Fatface', cursive;
+}
+
+
+#i-am {
     float: right;
     margin-right: 60px;
     margin-top: 50px;
+}
+
+#i-am-img {
+    position: absolute;
+    width: 1500px;
+    top: 270px;
+    left: 240px;
 
 }
 
@@ -180,12 +191,9 @@ nav {
 }
 
 #work-header{
-font-size: 13em;
-color: white;
-opacity: 8%;
-font-family: 'Abril Fatface', cursive;
 text-align: center;
 }
+
 
 #work-top-header-img{
     width: 1000px;
@@ -213,5 +221,13 @@ text-align: center;
 
 /* contact section */
 #contact {
-    background-color: maroon;
+    background-color: black;
+}
+
+#contact-img {
+    width: 1500px;
+    position: absolute;
+    top: 1650px;
+    right: 10px;
+    
 }
