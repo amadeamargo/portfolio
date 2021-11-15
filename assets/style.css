@@ -19,35 +19,6 @@ nav {
     display:flex;
     justify-content: space-between;
 }
-/* 
-.topNav {
-    background-color: #333;
-    overflow: hidden;
-}
-
-.topNav a{
-    float:left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topNav a:hover{
-    background-color: #ddd;
-    color: black;
-}
-
-.topNav a.active{
-    background-color: #04AA6D;
-    color: white;
-}
-
-.topNav .icon{
-    display: none;
-} */
 
 
 #logo {
@@ -66,9 +37,12 @@ nav {
     width: 75px;
     text-align: center;
 }
+
+
 #menu-text{
     color: white;
 }
+
 
 #homepage {
     background-color: black;
@@ -79,9 +53,17 @@ nav {
 #greeting{
     margin-left: 75px;
     margin-top: 200px;
-    font-size: xx-large;
 }
 
+
+#greeting p {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 100;
+    line-height: 2em;
+    font-size: xx-large;
+    flex-direction: column;
+
+}
 
 #scroll-down {
     position: absolute;
@@ -179,7 +161,6 @@ nav {
 
 
 /* work section */
-
 #work{
     background-color: black;
 }
@@ -212,12 +193,28 @@ text-align: center;
     margin-top: 40px;
     
 }
-
-.work-cards{
-    height: 200px;
-    width: 200px;
-    background-color: black;
+.work-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
 }
+
+.work-card{
+    height: 25vh;
+    width: 30vw;
+    background-color: grey;
+    margin-bottom: 30px;
+    border: solid;
+    border-color: beige;
+    border-width: 5px;
+}
+
+.work-card :hover {
+    background-color: black;
+
+}
+
 
 /* contact section */
 #contact {
