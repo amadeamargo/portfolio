@@ -7,15 +7,27 @@
     <title>Amadea Margo</title>
     <link rel="stylesheet" href='rest.css'/>
     <link rel="stylesheet" href='style.css'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Zen+Kaku+Gothic+New:wght@300&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='script.js'></script>
 </head>
 <body>
-    <section id="homepage">
+    <section id="homepage" class="page">
         <nav>
             <div id="logo">logo
             </div>
             <div id="menu">menu
             </div>
+            <!-- <div class="topNav" id="topNav">
+                <a href="#home" class="active">home</a>
+                <a href="#about">about</a>
+                <a href="#work">work</a>
+                <a href="#contact">contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i ckass="fa fa-bars"></i>
+                </a>
+            </div> -->
         </nav>
         <div id="home">
             <div id="greeting">
@@ -30,14 +42,14 @@
         </div>
         </div>
     </section>
-    <section id="about">
+    <section id="about" class="page">
         <div id="about-images">
-
+            <!-- <div id="img-background" class="images"></div>
+            <div id="img-background2" class="images"></div> -->
+            <div id="img-portrait" class="images"></div>
         </div>
         <div id="about-text">
-            <div id="about-text-heading">
-                about me
-            </div>
+            <div id=i-am>I AM</div>
             <div id="about-text-text">
                 text text text 
             </div>
@@ -45,7 +57,7 @@
         <div id="socials">
         </div>
     </section>
-    <section id="work">
+    <section id="work" class="page">
         <div id="work-heading">
             my work
             <div id="work-subheading">
@@ -57,7 +69,7 @@
             </div>
         </div>
     </section>
-    <section id="contact">
+    <section id="contact" class="page">
         <div id="info-form">
             <input type="text" class="input-box" placeholder="name"/>
             <input type="text" class="input-box" placeholder="email"/>

@@ -1,4 +1,4 @@
-# updated-portflio
+# portflio
 
 hi there!
 i'm amadea, 
