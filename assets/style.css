@@ -21,6 +21,20 @@ nav {
     justify-content: space-between;
 }
 
+#nav-menu{
+    float: right;
+    color: white;
+    margin: auto;
+}
+
+.link {
+    color: white; 
+}
+
+
+.link:hover { 
+    color: lightblue; 
+}
 
 #logo {
     align-self: center;
@@ -136,7 +150,6 @@ nav {
 
 #img-portrait{
     position: absolute;
-    height: 60vh;
     width: 50vh;
     left: 100px;
     top: 900px;
