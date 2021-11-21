@@ -25,6 +25,9 @@ nav {
     float: right;
     color: white;
     margin: auto;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
 }
 
 .link {
@@ -288,7 +291,18 @@ text-align: center;
 #contact-socials{
     color: white;
     position: relative;
-    left: 800px;
+    left: 600px;
     bottom:300px;
-    font-family: 'Comforter Brush', cursive;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    line-height: 50px;
+}
+
+a,  a:active, a:visited { 
+    color: white; 
+}
+
+a:hover{
+    color:lightpink
 }
