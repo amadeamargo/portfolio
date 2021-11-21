@@ -237,7 +237,13 @@ text-align: center;
     border-width: 5px;
 }
 
+.work-images{
+    height: 25vh;
+    object-fit:contain}
 
+.work.images :hover{
+    fill-opacity: 30%;
+}
 .work-card :hover {
     background-color: black;
 
