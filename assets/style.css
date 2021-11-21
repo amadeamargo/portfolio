@@ -208,6 +208,14 @@ text-align: center;
     left: 180px;
 }
 
+#my-work-overlay {
+    color: white;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 7em;
+    position: relative;
+    top: -150px;
+    text-align: center;
+}
 
 #work-subheading{
     color:white;
@@ -255,6 +263,14 @@ text-align: center;
     background-color: black;
 }
 
+#contact-overlay{
+    color: white;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 7em;
+    position: relative;
+    top: -150px;
+    left: 200px;
+}
 
 #contact-img {
     width: 1500px;
